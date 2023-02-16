@@ -26,3 +26,5 @@ inputs:
 runs:
   using: 'node16'
   main: 'dist/index.js'
+- name: Setup Java JDK
+  uses: actions/setup-java@v3.10.0
